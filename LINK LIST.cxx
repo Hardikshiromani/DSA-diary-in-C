@@ -23,12 +23,15 @@ int main()
 		head = 0;
 		if (head == 0)
 		{
-			head = temp = newnode; //same address in both
+			head = temp = newnode;
+ //same address in both
 		}
 		else
 		{
-			temp->next = newnode; //address storing in next part of temp variable
-			temp = newnode;		  //storing address of newnode as value in temp
+			temp->next = newnode; 
+//address storing in next part of temp variable
+			temp = newnode;		 
+ //storing address of newnode as value in temp
 		}
 		newnode->next = 0;
 		printf("do u want to continue");
