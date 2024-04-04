@@ -111,7 +111,7 @@ int main()
 		display();
 		break;
 		default:
-		printf("GO TO HELL");
+		printf("Invalid Choice");
 		break;
 	}
 	}while(choice!=0);
